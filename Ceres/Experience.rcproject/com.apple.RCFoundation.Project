@@ -112,7 +112,7 @@
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Hide Nutrition on start",
+                      "name" : "Scene Start hiding objects",
                       "triggers" : [
                         {
                           "__content" : [
@@ -292,6 +292,97 @@
                                 "name" : "tapTarget"
                               },
                               "identifier" : "5F288447-7CD0-4FF3-8F05-038B92BDF1E2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationDuration" : 0,
+                                          "direction" : [
+                                            0,
+                                            0,
+                                            1
+                                          ],
+                                          "duration" : 0,
+                                          "loops" : false,
+                                          "target" : [
+                                            "ACCC5B92-8570-473F-8C19-CB8EE2878CD2",
+                                            "A293983B-7C2E-4831-A0EC-C43552885FA8",
+                                            "B8E3B1D2-81C6-46C8-B8B8-BAADE7D19C89",
+                                            "61EFA21A-F456-47B9-9955-9CFEBA996476"
+                                          ],
+                                          "upVector" : [
+                                            0,
+                                            1,
+                                            0
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "lookAtCamera"
+                                        }
+                                      },
+                                      "identifier" : "76BBBD4D-679B-48D7-9C04-87EC92BEDAE7",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "3F53C81A-F42C-41B4-A8EF-310428F1F859",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019607901573181,
+                        0.7450980544090271,
+                        0.94901961088180542,
+                        1
+                      ],
+                      "identifier" : "B2E00FF3-5E53-4CFA-987B-CF091A9EB0D7",
+                      "isEnabled" : true,
+                      "isLooping" : true,
+                      "isModal" : false,
+                      "name" : "Scene Start follow camera",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "6E87C924-8CD3-407D-9B25-23BCA49EF2D9",
                               "isEnabled" : true
                             }
                           ],
@@ -526,9 +617,9 @@
                           {
                             "typeName" : "double4",
                             "value" : [
-                              0,
-                              0,
-                              0,
+                              1,
+                              1,
+                              1,
                               1
                             ]
                           }
@@ -635,8 +726,8 @@
                             "typeName" : "double4",
                             "value" : [
                               1,
-                              1,
-                              1,
+                              0.60000002384185791,
+                              0.20000000298023224,
                               1
                             ]
                           }
@@ -778,7 +869,7 @@
                           "material",
                           {
                             "typeName" : "String",
-                            "value" : "plastic"
+                            "value" : "standard"
                           }
                         ],
                         [
@@ -797,7 +888,7 @@
                           "style",
                           {
                             "typeName" : "String",
-                            "value" : "Iconic"
+                            "value" : "Stylized"
                           }
                         ]
                       ],
@@ -930,9 +1021,9 @@
                           {
                             "typeName" : "double4",
                             "value" : [
-                              0,
-                              0,
-                              0,
+                              1,
+                              1,
+                              1,
                               1
                             ]
                           }
@@ -1030,7 +1121,7 @@
                           "material",
                           {
                             "typeName" : "String",
-                            "value" : "standard"
+                            "value" : "paintEnamelMatte"
                           }
                         ],
                         [
@@ -1039,8 +1130,8 @@
                             "typeName" : "double4",
                             "value" : [
                               1,
-                              1,
-                              1,
+                              0.60000002384185791,
+                              0.20000000298023224,
                               1
                             ]
                           }
@@ -1108,9 +1199,9 @@
                   3.7252902984619141e-09,
                   0.23558150231838226,
                   0,
-                  0.10080458223819733,
+                  0.10080458968877792,
                   0.90382754802703857,
-                  -0.41585353016853333,
+                  -0.41585355997085571,
                   0,
                   -0.21292506158351898,
                   0.42789682745933533,
