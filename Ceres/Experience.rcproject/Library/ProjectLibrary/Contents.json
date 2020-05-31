@@ -13,5 +13,15 @@
     "libraryIdentifier" : "9b97f585ae734b7ea62de99e6972860f",
     "format" : "audio",
     "displayName" : "Pouring-Water-Into-SmallCup-CloseDistance-3-www.FesliyanStudios.com.mp3"
+  },
+  {
+    "libraryIdentifier" : "cc8989e1b42655b12539a664ef0e3d82",
+    "format" : "model",
+    "displayName" : "Bunch_of_red_grapes.reality"
+  },
+  {
+    "libraryIdentifier" : "c310b9ae79268940c07925655ad9f097",
+    "format" : "arObject",
+    "displayName" : "Ceres_Grape.arobject"
   }
 ]
