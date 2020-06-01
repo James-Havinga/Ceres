@@ -29,7 +29,9 @@ class ViewController: UIViewController {
         
         boxAnchor.actions.showInterface.onAction = handleShowInterface(_:)
         
-        boxAnchor.actions.startDropGrapes.onAction = handleDropGrapes(_:)
+        boxAnchor.actions.startDropGrapes.onAction = handleStartDropGrapes(_:)
+        
+        boxAnchor.actions.stopDropGrapes.onAction = handleStopDropGrapes(_:)
     }
     
     //MARK: - Custom Behaviour
@@ -46,16 +48,28 @@ class ViewController: UIViewController {
         dropButton.isHidden = true
     }
     
-    func handleDropGrapes(_ entity: Entity?) {
+    func handleStartDropGrapes(_ entity: Entity?) {
         guard  entity != nil else {
             return
         }
         
-        print("Drop Grapes")
+        print("Start Drop Grapes")
         
         textPanel.isHidden = false
         websiteLink.isHidden = true
         dropButton.isHidden = false
+    }
+    
+    func handleStopDropGrapes(_ entity: Entity?) {
+        guard  entity != nil else {
+            return
+        }
+        
+        print("Stop Drop Grapes")
+        
+        textPanel.isHidden = true
+        websiteLink.isHidden = true
+        dropButton.isHidden = true
     }
     
     //MARK: - Custom Trigger

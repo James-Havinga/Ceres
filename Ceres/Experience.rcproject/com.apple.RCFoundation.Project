@@ -276,6 +276,39 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
+                                          "target" : [
+                                            "8FFDDC47-2E9C-4C38-932A-114A3800C704",
+                                            "91E65421-93B7-4606-8FB9-0CF7B50D97DC",
+                                            "1D52E89B-CECE-49DE-9485-6EEF42D6ADD3"
+                                          ],
+                                          "userIdentifier" : "stopDropGrapes"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "25D07DCE-47FA-44A8-BD15-05446CB828D3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "8E6006B3-7BB3-4128-A790-5641C1B9F373",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
                                           "angularCoefficient" : 1,
                                           "animationStyle" : "basic",
                                           "buildOutAnimationType" : "move out to left",
@@ -2117,7 +2150,7 @@
                           "height",
                           {
                             "typeName" : "Double",
-                            "value" : 0.041793040931224823
+                            "value" : 0.041793040931224837
                           }
                         ],
                         [
@@ -2818,7 +2851,7 @@
                           "width",
                           {
                             "typeName" : "Double",
-                            "value" : 0.090677335858345032
+                            "value" : 0.090677335858345059
                           }
                         ]
                       ],
@@ -3903,7 +3936,7 @@
                           "height",
                           {
                             "typeName" : "Double",
-                            "value" : 0.026138916611671448
+                            "value" : 0.026138916611671458
                           }
                         ],
                         [
@@ -4373,7 +4406,7 @@
                           "depth",
                           {
                             "typeName" : "Double",
-                            "value" : 0.0019999999999999879
+                            "value" : 0.0019999999999999892
                           }
                         ],
                         [
@@ -4401,7 +4434,7 @@
                           "length",
                           {
                             "typeName" : "Double",
-                            "value" : 0.017218849230068209
+                            "value" : 0.017218849230068205
                           }
                         ],
                         [
