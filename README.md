@@ -15,7 +15,7 @@
 ## How to use
 
 ### Getting Started
-1. Download the project
+1. Download project the project
 1. Unzip the files
 1. Open the Ceres.xcodeproj file in xcode
 1. Plug Iphone into computer
