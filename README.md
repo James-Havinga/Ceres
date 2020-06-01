@@ -9,6 +9,14 @@
 
 ## How to use
 
+### Getting Started
+1. Download the project
+1. Unzip the files
+1. Open the Ceres.xcodeproj file in xcode
+1. Plug Iphone into computer
+1. Run the project on your phone
+1. Follow the following steps to use the App
+
 ### Step 1
 ##### Firstly you need to scan your juice box, It needs to be the Ceres grape juice 1l container (See image above). If scanning was successful you should be able to see the name of the juice above it and a little welcome message. You will also then see an option to drop grapes which is my custom trigger and if you click it you will see bunches of grapes fall from the sky. These bunches of grapes are custom objects that I imported. You can then press the arrow to move on.
 <img src="https://github.com/James-Havinga/Ceres/blob/master/1st.PNG" width="200">
