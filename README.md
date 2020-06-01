@@ -9,4 +9,4 @@
 
 ### Step 1
 ##### Firstly you need to scan your juice box, It needs to be the Ceres grape juice 1l container (See image above). If scanning was successful you should be able to see the name of the juice above it and a little welcome message. You will also then see an option to drop grapes which is my custom trigger and if you click it you will see bunches of grapes fall from the sky. These bunches of grapes are custom objects that I imported. You can then press the arrow to move on.
-![](1st.png)
+![1st](https://github.com/James-Havinga/Ceres/blob/master/1st.PNG)
