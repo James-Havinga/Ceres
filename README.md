@@ -7,6 +7,11 @@
 ## My Concept
 ##### The Concept of my project was to take the user through a bit of a journey through the product where I would just display some infomation about the product while making it more interesting than just looking at the information on the actualy juice box.
 
+## Built Using
+
+* Xcode + Swift
+* Reality Composer
+
 ## How to use
 
 ### Getting Started
@@ -32,3 +37,20 @@
 ### Step 5 
 ##### Then finaly tapping the arrow again will take you to the final set of information which is just telling you a bit about where ceres juice in manufactured and then another custom behaviour makes the website link appear at the bottom of the screen. The idea was to be able to tap the website link and it then take you to the actuall website but I wasnt able to implement that as I think its a bit more complicated than I thought.
 <img src="https://github.com/James-Havinga/Ceres/blob/master/4th.PNG" width="200">
+
+## Contributions
+#### Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+1. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+1. Commit your Changes (git commit -m 'Add some AmazingFeature')
+1. Push to the Branch (git push origin feature/AmazingFeature)
+1. Open a Pull Request
+
+## Authors
+
+* James Havinga
+
+## License
+
+#### Distributed under the MIT License. See LICENSE for more information.
